@@ -1,0 +1,33 @@
+{
+  "name": "reportingui",
+  "version": "1.0.0",
+  "description": "webpack prod configuration and hot module replacement",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config configs/webpack/dev.js",
+    "build": "webpack --config configs/webpack/prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "@types/react": "^16.0.2",
+    "@types/react-dom": "^16.0.2",
+	"@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta.2",
+    "awesome-typescript-loader": "^5.0.0-1",
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.0.6",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "react": "^16.0.2",
+    "react-dom": "^16.0.2"
+  }
+}
